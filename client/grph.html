@@ -5,10 +5,19 @@
 
 <body>
   {{> hello}}
+  {{> graph}}
 </body>
 
 <template name="hello">
 	<p>Data</p>
-	<div id="example"></div>
+	<div id="table"></div>
 	<button id="test">click</button>
+	<button id="testdata">testdata</button>
+	<button id="graphdata">graphdata</button>
 </template>
+
+<template name="graph">
+	<p>Graph</p>
+	<div id="chart">
+	</div>
+</template>	
